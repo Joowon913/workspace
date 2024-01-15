@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.sider {
+	margin-right: 70px;
+}
+
+.container {
+	margin: 50px;
+}
+
+.search-body {
+	margin-bottom: 1.5rem;
+}
+
+.sider a .top-menu {
+	font-weight: bold;
+}
+
+.sider a:hover {
+	background-color: #e9ecef;
+}
+
+.sider a:focus {
+	color: #1E9CE3 !important;
+	font-weight: bold !important;
+	background-color: #e9ecef;
+}
+
+.sider button:focus {
+	color: #1E9CE3;
+	border: 1px solid #1E9CE3;
+	background-color: #e9ecef !important;
+}
+
+.btn-outline-dark:hover {
+	font-weight: bold;
+	color: #1E9CE3;
+	border-color: #1E9CE3;
+}
+
+li .top-menu {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+th {
+	font-style: bold;
+}
+
+.row {
+	text-align: center;
+}
+
+.emp-img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 2px solid #eee;
+}
+
+.icon-img {
+	max-width: 100%;
+	height: 110%;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center;
+}
+
+a {
+	font-weight: 500;
+	color: #3c4142;
+	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
+}
+
+.bg-soft-base {
+	background-color: #e1f5f7;
+}
+
+.bg-soft-warning {
+	background-color: #fff4e1;
+}
+
+.bg-soft-success {
+	background-color: #d1f6f2;
+}
+
+.bg-soft-danger {
+	background-color: #fedce0;
+}

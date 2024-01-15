@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+#textarea {
+	width: 27vw;
+	height: 38vh;
+	resize: none;
+	border: none;
+	background: none;
+}
+
+.stretched {
+	position: absolute;
+	left: 20px;
+	width: 62vw;
+	height: 53vh;
+	transition: width 1s;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	/* overflow-y: auto; */
+}
+
+.slide-in {
+	width: 33vw;
+}
+
+.detail-hidden {
+	width: 0vw;
+	height: 53vh;
+	transition: width 1s;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	overflow-y: auto;
+	position: absolute;
+	right: 1vw;
+	width: 0vw;
+}
+
+.detail-shown {
+	width: 28vw;
+}
+
+.table-responsive {
+	height: 55vh;
+	overflow-y: auto;
+}
+
+th {
+	
+}
+
+thead tr:nth-child(1) th {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
